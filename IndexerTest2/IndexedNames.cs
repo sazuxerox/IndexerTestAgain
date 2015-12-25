@@ -36,5 +36,22 @@
                 }
             }
         }
+
+        public int this[string name]
+        {
+            get
+            {
+                int index = 0;
+                while (index < size)
+                {
+                    if (namelist[index] == name)
+                    {
+                        return index;
+                    }
+                    index++;
+                }
+                return index;
+            }
+        }
     }
 }

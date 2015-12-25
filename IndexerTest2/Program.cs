@@ -14,12 +14,18 @@ namespace IndexerTest2
                 names[i] = Console.ReadLine();
             }
 
+
             Console.WriteLine("Printing the names");
+
+            //using the first indexer with the integer parameter
 
             for (int i = 0; i < IndexedNames.size; i++)
             {
                 Console.WriteLine(names[i]);
             }
+
+            //using the second indexer with the string parameter
+            Console.WriteLine(names["Ahad"]);
             Console.ReadKey();
         }
     }

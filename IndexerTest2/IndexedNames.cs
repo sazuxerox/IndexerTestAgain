@@ -14,7 +14,7 @@
         }
 
 
-        //this will be shown in the git branch sidebranch
+        //this will be shown in the git branch mainbranch
         public string this[int index]
         {
             get
@@ -39,6 +39,8 @@
             }
         }
 
+
+        //this will be shown in the git branch master and sidebranch
         public int this[string name]
         {
             get
